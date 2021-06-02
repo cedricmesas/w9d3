@@ -1,0 +1,2 @@
+document.querySelectorAll(".notice")[0].textContent = "<%= @flash %>";
+document.querySelector("#card-list").insertAdjacentHTML("beforeend", "<%= j render 'task', task: @task %>")
