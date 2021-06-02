@@ -4,8 +4,8 @@
   <ul>
   <% @categories.each do  |category|%>
   <li><%= category.title  %></li>
-  <div class="card">
-    <ul class="list">
+  <div>
+    <ul id="card-list">
       <% category.tasks.each do |task|  %>
       <li>
         <%= task.title  %>
